@@ -36,11 +36,17 @@
           class="text-center bg-white transition duration-200 ease-in-out"
         >
           <td class="p-4 flex items-center space-x-6 border-b border-gray-400">
-            <img
+            <!-- <img -->
               :src="getImage(car.image)"
               :alt="car.name"
               class="w-36 h-20 object-cover"
             />
+              <img
+                    :src="image"
+                    :alt="name"
+                    class="w-36 h-20 object-cover"
+
+                    />
             <div>
               <h2 class="text-xl font-semibold text-gray-800">
                 {{ car.name }}
