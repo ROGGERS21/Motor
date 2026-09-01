@@ -1,13 +1,14 @@
 <template>
   <div class="car-card">
-    <img
-      :src="getImage(image)"
-      :alt="name"
-      class="car-image"
-    />
+    <!-- <img -->
+   
+       <img 
+       :src="image" 
+        :alt="name" 
+         class="car-image" 
+      />
 
     <div class="car-info">
-      <!-- <h3>{{ name }}</h3> -->
 
       <div class="car-details">
         <p class="brand">{{ brand }}</p>
@@ -40,11 +41,6 @@ defineProps({
   image: String,
 });
 
-const getImage = (imageName) => {
-  if (!imageName) return "";
-
-  return `/assets/images/${imageName}`;
-};
 </script>
 
 <style scoped>

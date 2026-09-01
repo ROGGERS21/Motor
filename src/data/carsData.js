@@ -1,9 +1,23 @@
+import bg_1 from "../assets/images/bg_1.jpg";
+import BMW from "../assets/images/BMW.jpg";
+import Audi from "../assets/images/Audi.jpg";
+import car4 from "../assets/images/car-4.jpg";
+import car5 from "../assets/images/car-5.jpg";
+import car6 from "../assets/images/car-6.jpg";
+import car7 from "../assets/images/car-7.jpg";
+import car8 from "../assets/images/car-8.jpg";
+import car9 from "../assets/images/car-9.jpg";
+import car10 from "../assets/images/car-10.jpg";
+import car11 from "../assets/images/car-11.jpg";
+import car12 from "../assets/images/car-12.jpg";
+
+
 export const cars = [
   {
     id: 1,
     brand: "Tesla Model 3",
     price: "$120",
-    image: "bg_1.jpg",
+    image: bg_1,
     name: "Lexus",
     rating: 5,
     ratePerHour: 200,
@@ -24,8 +38,8 @@ export const cars = [
     id: 2,
     brand: "BMW X5",
     price: "$150",
-    image: "BMW.jpg",
-    name: "BMW",
+    image: "BMW",
+    name: BMW,
     rating: 3,
     ratePerHour: 200,
     ratePerDay: 1500,
@@ -45,7 +59,7 @@ export const cars = [
     id: 3,
     brand: "Audi A4",
     price: "$130",
-    image: "Audi.jpg",
+    image: Audi,
     name: "Audi",
     rating: 5,
     ratePerHour: 200,
@@ -66,7 +80,7 @@ export const cars = [
       id: 4,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-4.jpg",
+      image: car-4,
       name: "Mercedes Grand Sedan",
       rating: 2,
       ratePerHour: 200,
@@ -87,7 +101,7 @@ export const cars = [
       id: 5,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-5.jpg",
+      image: car-5,
       name: "Mercedes Grand Sedan",
       rating: 5,
       ratePerHour: 200,
@@ -108,7 +122,7 @@ export const cars = [
       id: 6,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-6.jpg",
+      image: car-6,
       name: "Mercedes Grand Sedan",
       rating: 1,
       ratePerHour: 200,
@@ -129,7 +143,7 @@ export const cars = [
       id: 7,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-7.jpg",
+      image: car-7,
       name: "Mercedes Grand Sedan",
       rating: 5,
       ratePerHour: 200,
@@ -150,7 +164,7 @@ export const cars = [
       id: 8,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-8.jpg",
+      image: car-8,
       name: "Mercedes Grand Sedan",
       rating: 5,
       ratePerHour: 200,
@@ -171,7 +185,7 @@ export const cars = [
       id: 9,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-9.jpg",
+      image: car-9,
       name: "Mercedes Grand Sedan",
       rating: 5,
       ratePerHour: 200,
@@ -192,7 +206,7 @@ export const cars = [
       id: 10,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-10.jpg",
+      image: car-10,
       name: "Mercedes Grand Sedan",
       rating: 5,
       ratePerHour: 200,
@@ -213,7 +227,7 @@ export const cars = [
       id: 11,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-11.jpg",
+      image: car-11,
       name: "Mercedes Grand Sedan",
       rating: 5,
       ratePerHour: 200,
@@ -234,7 +248,7 @@ export const cars = [
       id: 12,
       brand: "Mercedes-Benz",
       price: "$180",
-      image: "car-12.jpg",
+      image: car-12,
       name: "Mercedes Grand Sedan",
       rating: 5,
       ratePerHour: 200,
