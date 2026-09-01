@@ -19,11 +19,15 @@
 
       <!-- IMAGE -->
       <div>
-        <img
-          :src="getImage(car.image)"
-          :alt="car.name"
-          class="w-full h-[450px] object-cover rounded-lg"
-        />
+        
+
+        <img 
+          
+             :src="car.image" 
+             :alt="car.name" 
+                       class="w-full h-[450px] object-cover rounded-lg"
+
+         />
       </div>
 
 
@@ -190,11 +194,14 @@ const car = computed(() => {
   return cars.find(car => car.id === carId.value);
 });
 
-
+/*
 const getImage = (imageName) => {
   return new URL(
     `/src/assets/images/${imageName}`,
     import.meta.url
   ).href;
+
+
 };
+*/
 </script>

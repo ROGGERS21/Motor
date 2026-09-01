@@ -41,11 +41,6 @@ defineProps({
   comment: String,
 })
 
-// const getImage = (imageName) => {
-  // if (!imageName) return ''
-
-  // return `/assets/images/${imageName}`
-// }
 
 </script>
 
