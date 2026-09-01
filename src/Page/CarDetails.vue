@@ -194,14 +194,6 @@ const car = computed(() => {
   return cars.find(car => car.id === carId.value);
 });
 
-/*
-const getImage = (imageName) => {
-  return new URL(
-    `/src/assets/images/${imageName}`,
-    import.meta.url
-  ).href;
 
 
-};
-*/
 </script>

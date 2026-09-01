@@ -52,6 +52,7 @@ import 'swiper/css/autoplay'
 import SectionHeading from '../composables/SectionHeading.vue'
 import CarCards from '../cards/carCards.vue'
 import { cars } from '../../data/carsData'
+
 </script>
 
 <style scoped>
