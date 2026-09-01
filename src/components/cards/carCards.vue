@@ -3,8 +3,8 @@
     <!-- <img -->
    
        <img 
-       :src="image" 
-        :alt="name" 
+       :src="car.image" 
+        :alt="car.name" 
          class="car-image" 
       />
 
