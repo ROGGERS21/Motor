@@ -1,12 +1,11 @@
 <template>
   <div class="car-card">
-    <!-- <img -->
-   
-       <img 
-       :src="car.image" 
-        :alt="car.name" 
-         class="car-image" 
-      />
+
+    <img
+      :src="image"
+      :alt="name"
+      class="car-image"
+    />
 
     <div class="car-info">
 
@@ -16,6 +15,7 @@
       </div>
 
       <div class="car-actions">
+
         <RouterLink to="/pricing">
           <ButtonComponent text="Book Now" />
         </RouterLink>
@@ -25,7 +25,9 @@
             Details
           </button>
         </RouterLink>
+
       </div>
+
     </div>
   </div>
 </template>
@@ -34,13 +36,31 @@
 import ButtonComponent from "../composables/ButtonComponent.vue";
 
 defineProps({
-  id: Number,
-  name: String,
-  brand: String,
-  price: String,
-  image: String,
-});
+  id: {
+    type: Number,
+    required: true,
+  },
 
+  name: {
+    type: String,
+    required: true,
+  },
+
+  brand: {
+    type: String,
+    required: true,
+  },
+
+  price: {
+    type: String,
+    required: true,
+  },
+
+  image: {
+    type: String,
+    required: true,
+  },
+});
 </script>
 
 <style scoped>
