@@ -23,37 +23,37 @@ const routes = [
                 component: HomePage,
             },
              {
-                path: "/about",
+                path: "about",
                 name: 'about',
                 component: AboutPage,
             },
              {
-                path: "/pricing",
+                path: "pricing",
                 name: 'pricing',
                 component: PricingPage,
             },
              {
-                path: "/service",
+                path: "service",
                 name: 'service',
                 component: ServicePage,
             },
              {
-                path: "/cars",
+                path: "cars",
                 name: 'cars',
                 component: CarsPage,
             },
              {
-                path: "/contact",
+                path: "contact",
                 name: 'contact',
                 component: ContactPage,
             },
              {
-                path: "/blog",
+                path: "blog",
                 name: 'blog',
                 component: BlogPage,
             },
             {
-                     path: "/cars/:id",
+                     path: "cars/:id",
                      component: CarDetails,
             },
             
@@ -63,12 +63,14 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes,
+
     scrollBehavior() {
-        return { top: 0 }; //scroll to the  top  navigation
+        return { top: 0 };
     }
 })
+
 
 export default router;
 
