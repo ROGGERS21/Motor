@@ -3,11 +3,13 @@
 
     <!-- Image -->
     <div class="person-image-wrapper">
+      
+
       <img
-        :src="getImage(image)"
-        :alt="name"
-        class="person-image"
-      />
+         :src="image"
+           :alt="name"
+           class="person-image"
+          />
     </div>
 
     <!-- Content -->
@@ -39,11 +41,11 @@ defineProps({
   comment: String,
 })
 
-const getImage = (imageName) => {
-  if (!imageName) return ''
+// const getImage = (imageName) => {
+  // if (!imageName) return ''
 
-  return `/assets/images/${imageName}`
-}
+  // return `/assets/images/${imageName}`
+// }
 
 </script>
 
