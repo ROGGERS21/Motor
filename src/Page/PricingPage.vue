@@ -36,14 +36,10 @@
           class="text-center bg-white transition duration-200 ease-in-out"
         >
           <td class="p-4 flex items-center space-x-6 border-b border-gray-400">
-            <!-- <img -->
-              :src="getImage(car.image)"
-              :alt="car.name"
-              class="w-36 h-20 object-cover"
-            />
+           
               <img
-                    :src="image"
-                    :alt="name"
+                    :src="car.image"
+                    :alt="car.name"
                     class="w-36 h-20 object-cover"
 
                     />
@@ -86,9 +82,7 @@ import { AnFilledStar } from "@kalimahapps/vue-icons";
 import { AnOutlinedStar } from "@kalimahapps/vue-icons";
 import { cars } from "../data/carsData";
 
-const getImage = (imageName) => {
-  return new URL(`/src/assets/images/${imageName}`, import.meta.url).href;
-};
+
 </script>
 
 <style>
